@@ -1,0 +1,36 @@
+
+.container {
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.titre {
+    text-align: center;
+    font-size: 40px;
+}
+.container_header {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.container_images {
+    display: flex;
+    justify-content: space-around;
+}
+img {
+    width: 200px;
+}
+.container_bouton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    margin: 20px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
